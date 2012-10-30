@@ -8,6 +8,10 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+<<<<<<< HEAD
+=======
+ *= require bootstrap_and_overrides
+>>>>>>> a7bf42ca79abaa13a2d4f78c6861b88f8e6bea9e
  *= require_self
  *= require_tree .
  */
