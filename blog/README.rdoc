@@ -1,1 +1,3 @@
-
+Paweł Sawicki
+Architektura Serwisów Internetowych UG
+http://savikkruby.herokuapp.com/
