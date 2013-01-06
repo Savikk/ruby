@@ -3,6 +3,9 @@ gem 'libv8', '~> 3.11.8'
 gem 'bootstrap-will_paginate'
 gem "therubyracer"
 gem "less-rails"
+gem "devise"
+gem "nifty-generators"
+gem "omniauth-twitter"
 group :assets do
   gem 'less'
 end

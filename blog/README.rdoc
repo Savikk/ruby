@@ -1,2 +1,1 @@
-== BLOG
-http://mighty-refuge-8614.herokuapp.com
+

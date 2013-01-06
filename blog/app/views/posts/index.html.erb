@@ -11,9 +11,19 @@
                         <ul class="dropdown-menu">
                             <li><a href="#"><%= link_to 'New Post', new_post_path %></a></li>
                             <li><a href="#">Action 2</a></li>
+                            
                             <li class="divider"></li>
-                            <li class="nav-header">Header</li>
-                            <li><a href="#">Separated action</a></li>
+                            <li class="nav-header">Logowanie</li>
+                            <li><div id="user_nav">
+  <% if user_signed_in? %>
+    Signed in as <%= current_user.email %>. Not you?
+    <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+  <% else %>
+    <%= link_to "Sign up", new_user_registration_path %> or <%= link_to "sign in", new_user_session_path %>
+  <% end %>
+</div></li>
+                           
+
                         </ul>
                     </li>
                 </ul>
